@@ -11,6 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+        echo "Testing file get contents";
         $v=file_get_contents('https://www.vitamap.com/');
         echo $v;
         ?>
