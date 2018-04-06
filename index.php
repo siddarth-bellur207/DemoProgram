@@ -11,8 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "Hello World!";
-        
+        $v=file_get_contents('https://www.vitamap.com/');
+        echo $v;
         ?>
     </body>
 </html>
